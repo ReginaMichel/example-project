@@ -1,0 +1,93 @@
+@import './base.css';
+
+#app {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+section{
+  background-image: url('kirsche_Icongeek26_20.png');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+input {
+  margin-right: 12px;
+  display: inline;
+}
+select {
+  width: 95px;
+  margin-right: 12px;
+  display: inline;
+}
+h1 {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+table {
+  width: 100%;
+  border: 1px solid;
+  margin-top: 20px;
+}
+th {
+  text-align: left;
+  font-size: larger;
+  font-weight: 600;
+}
+th, td {
+  padding: 3px;
+  padding-right: 7px;
+}
+p {
+  display: inline;
+}
+button {
+  background:#d76060;
+  margin-left: 10px;
+  display: inline;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+  padding-right: 10px;
+  padding-left: 50px;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #390000;
+  width: auto;
+}
+.title {
+  color: firebrick;
+  margin-left: 135px;
+}
+.space {
+  width: 20px;
+}
+.eingerueckt {
+  padding-left: 122px;
+}
+header {
+  display: block;
+  width: 100%;
+  height: 120px;
+  background-image: url('https://cdn-icons-png.flaticon.com/512/4055/4055115.png');
+  background-repeat: no-repeat;
+  background-size: 115px 110px
+}
+nav {
+  display: block;
+  width: 100%;
+  background-color: #d76060;
+  height: 30px;
+}
+section {
+  height: 600px;
+}
+footer {
+  background-color: #d76060;
+  height: 30px;
+}
